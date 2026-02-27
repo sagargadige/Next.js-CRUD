@@ -1,0 +1,11 @@
+
+> server-api@0.1.0 dev
+> next dev --port 3000
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.12:3000
+
+✓ Starting...
+Creating turbopack project { dir: 'D:\\mongodb-crud', testMode: true }
+✓ Ready in 694ms
