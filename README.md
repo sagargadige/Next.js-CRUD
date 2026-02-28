@@ -5,17 +5,17 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
-A modern user CRUD dashboard built with Next.js App Router.  
-The app lets you create, view, update, delete, and search users with a clean UI and local browser persistence.
+A modern user CRUD dashboard built with Next.js App Router.
+The app lets you create, view, update, delete, and search users with a clean responsive interface and browser-based storage.
 
-## Project Overview
+## Screenshot
 
-This project is a full frontend CRUD workflow with:
-- Form-based user creation and update
-- Searchable and paginated data table
-- Toast notifications for actions
-- Responsive dashboard styling
-- Local data persistence via `localStorage`
+![CRUD Dashboard UI](./image.png)
+
+The screenshot includes:
+- `Add User Data` form with `Name`, `Email`, `Password`, and `Phone` fields
+- Search input to filter users by name
+- `User List` table with pagination and `Edit`/`Delete` actions
 
 ## Tech Stack
 
@@ -24,17 +24,18 @@ This project is a full frontend CRUD workflow with:
 - Bootstrap 5
 - `react-data-table-component`
 - `react-toastify`
-- Mongoose (API route layer available in project)
+- Mongoose (API route layer available in the project)
 
 ## Features
 
 - Create new users
-- Read/list users in a styled table
-- Update existing users
+- List users in a paginated table
+- Edit users with pre-filled form values
 - Delete users
 - Search users by name
-- Data persistence in browser local storage
-- Responsive UI for desktop/tablet/mobile
+- Toast notifications for CRUD actions
+- Data persistence in browser `localStorage`
+- Responsive layout for desktop, tablet, and mobile
 
 ## Run Locally
 
@@ -83,7 +84,7 @@ app/
 
 ## Data Persistence
 
-User records are stored in browser `localStorage` with key:
+User records are stored in browser `localStorage` under:
 
 ```text
 users_data
@@ -94,7 +95,7 @@ To reset records, clear browser local storage for this site.
 ## Notes
 
 - Current UI CRUD flow works without backend DB calls.
-- MongoDB-related API routes remain in the project if you want to switch back to server persistence later.
+- MongoDB API routes remain in the project if you want server persistence later.
 
 ## License
 
